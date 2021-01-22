@@ -6,29 +6,18 @@ Linux-based distribution for jailbreaking iOS devices w/ checkra1n.
 
 ## Downloads
 
-Downloads are available under [releases](https://github.com/asineth0/checkn1x/releases).
+Downloads are available under [releases](https://github.com/MihneaDev/checkn1x/releases/1.16).
 
 ## Usage
 
-**Use whatever tool you want, but I'm only officially supporting Etcher.**
+**Use whatever tool you want, but I'm recomanding 3uTools.**
 
-1. Download [Etcher](https://etcher.io) and the ISO from releases.
-2. Open the ``.iso`` you downloaded in Etcher.
-3. Write it to your USB drive.
-4. Reboot and enter your BIOS's boot menu.
-5. Select the USB drive.
-
-## Building
-
-* The ``CRSOURCE`` variable is the direct link to the build of checkra1n that will be used.
-* Add something to the ``VERSION`` variable if you want to redistribute your image, i.e. ``1.0.6-foo``.
-
-```sh
-# debian/ubuntu/mint/etc.
-apt install curl ca-certificates tar gzip grub2-common grub-pc-bin grub-efi-amd64-bin
-
-# archlinux
-pacman -S --needed curl tar gzip grub mtools xorriso cpio xz
-
-sudo ./build.sh
-```
+1. Download [3uTools](https://3u.com) and the ISO from releases.
+2. Open 3uTools and go to the [Flash&JB] .
+3. Click on [Jailbreak].
+4. Click on [Make checkra1n jailbreak bootable USB].
+5. Then, click on [Select from local].
+6. Select the ISO you just downloaded.
+7. Click on start making.
+8. After you receive a message that the U drive was sucessfully maked, close 3uTools and restart your PC.
+9. From your BIOS/UEFI menu, select the USB drive and jailbreak.
