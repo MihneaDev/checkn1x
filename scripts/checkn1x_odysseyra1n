@@ -7,7 +7,7 @@ clear
 cat << !
 This script is experimental and may break things.
 
-## Checkn1x will provide no support if things go wrong.
+## checknl1nx will provide no support if things go wrong.
 ## Tweak/device-related issues should be reported to the respective devs.
 
 This will migrate your device to Procursus/Odyssey.
